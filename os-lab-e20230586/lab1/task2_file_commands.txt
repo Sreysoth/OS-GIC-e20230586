@@ -1,0 +1,3 @@
+/home/gic-samreth-sreysoth/oslab-work/lab1/task2_files
+FILE1.txt
+FILES2.txt

@@ -1,0 +1,4 @@
+    PID TTY          TIME CMD
+ 176990 pts/1    00:00:00 bash
+ 177393 pts/1    00:00:00 sleep
+ 177399 pts/1    00:00:00 ps
