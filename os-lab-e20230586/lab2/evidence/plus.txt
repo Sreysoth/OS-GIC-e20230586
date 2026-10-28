@@ -1,0 +1,3 @@
+cd mess/c && mv -- '../a/b/lost file.txt' found.txt
+cd ../a/b && cp -- '../../c/found.txt' "../../../TechCorp/Support/"
+Count: 3 parent levels (../../../) were needed to reach the lab root from mess/a/b.

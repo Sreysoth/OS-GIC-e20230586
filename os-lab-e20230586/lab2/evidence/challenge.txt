@@ -1,0 +1,2 @@
+1. Putting quotes around '*.txt' causes the shell to treat it as a literal string rather than expanding matching files (globbing), resulting in "No such file or directory".
+2. Creating reports/.hidden.txt is not copied by *.txt because standard shell wildcards do not match filenames starting with a dot (hidden files) by default.
