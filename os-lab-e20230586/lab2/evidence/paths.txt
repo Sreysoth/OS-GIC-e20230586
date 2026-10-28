@@ -1,0 +1,11 @@
+cd incoming && mv -- "audit notes.txt" ../reports/
+mv -- /home/samreth-sreysoth/oslab-work/lab2/incoming/"vendor list.txt" /home/samreth-sreysoth/oslab-work/lab2/reports/"vendor list.txt"
+cp -- reports/"audit notes.txt" reports/"vendor list.txt" TechCorp/Finance/
+cp -- reports/"audit notes.txt" TechCorp/Finance/archive/first-original.txt
+cat ../Finance/"audit notes.txt"
+cat /home/samreth-sreysoth/oslab-work/lab2/TechCorp/Finance/"audit notes.txt"
+
+Decision: For step 3, I used relative paths because my working directory was already at the lab2 root, keeping the command short. Absolute paths are preferred in automation scripts or when commands run from unpredictable directories.
+
+Error: cat: 'reports/audit notes.txt': No such file or directory
+Fix: ../../reports/audit notes.txt

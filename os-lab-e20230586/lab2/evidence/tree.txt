@@ -1,0 +1,10 @@
+reports/audit notes.txt
+reports/README.txt
+reports/vendor list.txt
+TechCorp/Finance/archive/first-original.txt
+TechCorp/Finance/audit notes.txt
+TechCorp/Finance/vendor list.txt
+TechCorp/Support/audit notes.txt
+TechCorp/Support/found.txt
+TechCorp/Support/README.txt
+TechCorp/Support/vendor list.txt
