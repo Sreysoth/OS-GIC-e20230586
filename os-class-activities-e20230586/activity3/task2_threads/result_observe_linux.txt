@@ -1,0 +1,7 @@
+gic-sam+ 1723664 1717500 1723664  0    5 01:27 pts/0    00:00:00 ./threads_observe
+gic-sam+ 1723664 1717500 1723666  0    5 01:27 pts/0    00:00:00 ./threads_observe
+gic-sam+ 1723664 1717500 1723667  0    5 01:27 pts/0    00:00:00 ./threads_observe
+gic-sam+ 1723664 1717500 1723668  0    5 01:27 pts/0    00:00:00 ./threads_observe
+gic-sam+ 1723664 1717500 1723669  0    5 01:27 pts/0    00:00:00 ./threads_observe
+gic-sam+ 1723681 1717500 1723681  0    1 01:27 pts/0    00:00:00 grep --color=auto threads_observe
+--- /proc/<PID>/task/ listing ---
