@@ -1,8 +1,6 @@
 === NEW FILE USING THE OLD NAME ===
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:12 market-hard.txt
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:12 market-saved.txt
-18876164 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 16 Nov  9 02:12 market-soft.txt -> market-saved.txt
-18876149 -rw-rw-r-- 1 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:12 market.txt
+18876149 -rw-r--r-- 1 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:10 market.txt
+18876164 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 16 Nov  9 01:54 market-soft.txt -> market-saved.txt
 market.txt: version 463
-hard: version 417
-soft: version 417
+hard: cat: market-hard.txt: No such file or directory
+soft: cat: market-soft.txt: No such file or directory
