@@ -1,0 +1,8 @@
+
+=== BEFORE RENAME ===
+18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-hard.txt
+18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 10 Nov  9 02:28 market-soft.txt -> market.txt
+18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market.txt
+hard: version 201
+soft: version 201
+stored target: market.txt
