@@ -1,0 +1,2 @@
+- The remaining link counts drop from 3 to 2, and then down to 1 after each removal.
+- The data is not gone after deleting one.txt because other names still point to the same inode. The data is only permanently deleted when the link count reaches 0 and no processes have the file open.

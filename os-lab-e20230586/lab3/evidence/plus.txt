@@ -1,0 +1,1 @@
+My guess differed because the negation pattern [!1] matched files starting with numbers or characters other than 1.

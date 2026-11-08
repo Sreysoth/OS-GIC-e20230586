@@ -1,62 +1,7 @@
-
 === BEFORE RENAME ===
 18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-hard.txt
-18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 10 Nov  9 02:28 market-soft.txt -> market.txt
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market.txt
-hard: version 201
-soft: version 201
+18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 10 Nov  9 02:42 market-soft.txt -> market.txt
+18876246 -rw-rw-r-- 1 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:35 market.txt
 stored target: market.txt
-
-=== AFTER RENAME ===
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-hard.txt
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-saved.txt
-18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 16 Nov  9 02:34 market-soft.txt -> market-saved.txt
-Hard link:
-version 201
-Symbolic link target:
-market-saved.txt
-Symbolic link result (expected to fail):
-version 201
-
-=== AFTER REPAIR ===
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-hard.txt
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-saved.txt
-18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 16 Nov  9 02:35 market-soft.txt -> market-saved.txt
-Symbolic link target:
-market-saved.txt
-Hard link:
-version 201
-Symbolic link:
-version 201
-
-=== AFTER RENAME ===
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-hard.txt
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-saved.txt
-18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 16 Nov  9 02:35 market-soft.txt -> market-saved.txt
-stored target:
-market-saved.txt
-cat market-soft.txt:
-version 201
-
-=== AFTER RENAME ===
-stored target:
-market.txt
 cat market-soft.txt:
 version 203
-
-=== AFTER REPAIR ===
-stored target: market-saved.txt
-symbolic link reads:
-version 201
-
-=== AFTER RENAME ===
-stored target: market.txt
-version 203
-
-=== AFTER REPAIR ===
-stored target: market-saved.txt
-version 201
-
-=== AFTER REPAIR ===
-stored target: market-saved.txt
-version 201
