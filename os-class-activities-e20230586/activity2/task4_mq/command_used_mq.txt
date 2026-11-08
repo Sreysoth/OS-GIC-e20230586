@@ -1,0 +1,20 @@
+  790  gcc -o shm-producer shm-producer.c -lrt
+  791  gcc -o shm-consumer shm-consumer.c -lrt
+  792  ./shm-producer
+  793  ./shm-consumer > result-shm-ipc.txt
+  794  cat result-shm-ipc.txt
+  795  history | tail -n 20 > command_used_shm.txt
+  796  cd ../task4_mq
+  797  nano common.h
+  798  nano sender.c
+  799  nano receiver.c
+  800  gcc -o sender sender.c -lrt
+  801  gcc -o receiver receiver.c -lrt
+  802  ./sender
+  803  ./receiver > result-mq-ipc.txt
+  804  cat result-mq-ipc.txt
+  805  history | tail -n 20 > command_used_mq.txt
+  806  ./sender
+  807  ./receiver > result-mq-ipc.txt
+  808  cat result-mq-ipc.txt
+  809  history | tail -n 20 > command_used_mq.txt

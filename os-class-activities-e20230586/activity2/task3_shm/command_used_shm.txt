@@ -1,0 +1,20 @@
+  776  git push
+  777  cd ~/os-gic-e20230586/os-class-activities-e20230586/activity2/task1
+  778  gcc -o forkchild forkchild.c
+  779  ./forkchild > result_forkchild.txt 2>&1
+  780  cat result_forkchild.txt
+  781  ./forkchild > result_forkchild.txt 2>&1
+  782  ps -ef --forest | grep forkchild
+  783  history | tail -n 20 > command_used_forkchild.txt
+  784  cd ../task3_shm
+  785  nano shm-producer.c
+  786  nano shm-consumer.c
+  787  gcc -o shm-producer shm-producer.c -lrt
+  788  gcc -o shm-consumer shm-consumer.c
+  789  gcc -o shm-consumer shm-consumer.c -lrt
+  790  gcc -o shm-producer shm-producer.c -lrt
+  791  gcc -o shm-consumer shm-consumer.c -lrt
+  792  ./shm-producer
+  793  ./shm-consumer > result-shm-ipc.txt
+  794  cat result-shm-ipc.txt
+  795  history | tail -n 20 > command_used_shm.txt
