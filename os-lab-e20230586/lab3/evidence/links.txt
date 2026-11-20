@@ -1,7 +1,26 @@
+
 === BEFORE RENAME ===
-18876202 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:27 market-hard.txt
-18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 10 Nov  9 02:42 market-soft.txt -> market.txt
-18876246 -rw-rw-r-- 1 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov  9 02:35 market.txt
+18876246 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov 20 22:25 market-hard.txt
+18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 10 Nov 20 22:25 market-soft.txt -> market.txt
+18876246 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov 20 22:25 market.txt
+hard: version 201
+soft: version 201
 stored target: market.txt
-cat market-soft.txt:
-version 203
+
+=== AFTER RENAME, BEFORE REPAIR ===
+18876246 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov 20 22:25 market-hard.txt
+18876246 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov 20 22:25 market-saved.txt
+18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 10 Nov 20 22:25 market-soft.txt -> market.txt
+hard: version 201
+stored target: market.txt
+soft: cat: market-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+18876246 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov 20 22:25 market-hard.txt
+18876246 -rw-rw-r-- 2 gic-samreth-sreysoth gic-samreth-sreysoth 12 Nov 20 22:25 market-saved.txt
+18876149 lrwxrwxrwx 1 gic-samreth-sreysoth gic-samreth-sreysoth 16 Nov 20 22:25 market-soft.txt -> market-saved.txt
+stored target: market-saved.txt
+hard: version 201
+soft: version 201
+
+Decision: I used a relative target (market-saved.txt) because symbolic links resolve paths relative to the directory containing the link; an absolute path would break if the lab folder were moved or renamed.
