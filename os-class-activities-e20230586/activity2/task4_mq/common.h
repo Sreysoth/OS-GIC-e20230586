@@ -6,7 +6,7 @@
  * IMPORTANT: Change the queue name to something unique to you!
  * The name MUST start with a forward slash '/'.
  */
-#define QUEUE_NAME  "/queue-sreysoth"
+#define QUEUE_NAME  "/queue-powiney"
 #define MAX_SIZE    1024
 
 #endif
